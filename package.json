@@ -28,11 +28,6 @@
   "homepage": "https://github.com/LeetCode-OpenSource/react-simple-resizer#readme",
   "author": "LeetCode front-end team",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier --write",
